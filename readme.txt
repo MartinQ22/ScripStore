@@ -1,0 +1,1 @@
+Holaa, Martin al habla. La simulacion que busco crear es agregar los productos sacados de la base de datos al carrito de compras y que este sume ese valor total. Tambien agrege una funcion para el carrito se guarde en el localstorage.
