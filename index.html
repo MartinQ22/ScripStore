@@ -3,11 +3,192 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/styles.css" />
-    <title>Tienda de Ropa</title>
+    <!-- estilos -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>SCRIPTSTORE</title>
   </head>
   <body>
-    <h1>Bienvenido!!</h1>
-    <script src="./main.js"></script>
+    <!-- header -->
+    <header>
+      <!-- nav -->
+      <a href="#" class="logo">SCRIPTSTORE</a>
+      <nav>
+        <a href="#">Tienda</a>
+        <a href="#">Ofertas</a>
+        <a href="#">Nosotros</a>
+      </nav>
+
+      <!-- carrito -->
+      <div class="containerIconPadre">
+        <!-- icono carrito -->
+        <div class="containerIconCarrito buttonCarrito">
+          <img
+            class="iconoCarrito"
+            src="../images/shopping_cart.png"
+            alt="Carrito de Compra"
+          />
+          <!-- contador de items del carrito -->
+          <div class="count-products">
+            <span id="contador-productos">0</span>
+          </div>
+        </div>
+        <!-- lista de items (escodida por defecto)-->
+        <div class="container-cart-products hidden-cart">
+          <div class="row-product hidden">
+            <div class="cart-product">
+              <div class="info-cart-product">
+                <span class="cantidad-producto-carrito">1</span>
+                <p class="titulo-producto-carrito">Producto</p>
+                <span class="precio-producto-carrito">$999</span>
+              </div>
+              <!-- icono de cerrar -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="icon-close"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              </svg>
+            </div>
+          </div>
+
+          <div class="cart-total hidden">
+            <h3>Total:</h3>
+            <span class="total-pagar">$1000</span>
+          </div>
+          <p class="cart-empty">Carrito vacío</p>
+        </div>
+      </div>
+    </header>
+    <!-- Main -->
+    <main>
+      <!-- Lista de Cards de Puma -->
+      <div class="gridDeCards contenedorDeItems" id="containerListaZapatillas">
+        <div class="cardProducto" id="zapatillaRosa">
+          <img
+            src="../images/zapatilla_Rosa.png"
+            alt="PUMA HOOPS X TORTUGAS NINJA"
+            class="imagenCardProducto"
+          />
+          <h3 class="nombreDeProducto">
+            PUMA HOOPS X TORTUGAS NINJA MB.03 LO KRANG
+          </h3>
+          <p class="categoriaCard">Zapatillas de Moda para Hombre</p>
+          <p class="precioProductoCard">$259.999</p>
+          <button class="botonCardAgregarCart">Agregar al Carrito</button>
+        </div>
+
+        <div class="cardProducto" id="zapatillaRosa">
+          <img
+            src="../images/zapatilla_Rosa.png"
+            alt="PUMA HOOPS X TORTUGAS NINJA"
+            class="imagenCardProducto"
+          />
+          <h3 class="nombreDeProducto">
+            PUMA HOOPS X TORTUGAS NINJA MB.03 LO KRANG
+          </h3>
+          <p class="categoriaCard">Zapatillas de Moda para Hombre</p>
+          <p class="precioProductoCard">$259.999</p>
+          <button class="botonCardAgregarCart">Agregar al Carrito</button>
+        </div>
+
+        <div class="cardProducto" id="zapatillaRosa">
+          <img
+            src="../images/zapatilla_Rosa.png"
+            alt="PUMA HOOPS X TORTUGAS NINJA"
+            class="imagenCardProducto"
+          />
+          <h3 class="nombreDeProducto">
+            PUMA HOOPS X TORTUGAS NINJA MB.03 LO KRANG
+          </h3>
+          <p class="categoriaCard">Zapatillas de Moda para Hombre</p>
+          <p class="precioProductoCard">$259.999</p>
+          <button class="botonCardAgregarCart">Agregar al Carrito</button>
+        </div>
+
+        <div class="cardProducto" id="zapatillaRosa">
+          <img
+            src="../images/zapatilla_Rosa.png"
+            alt="PUMA HOOPS X TORTUGAS NINJA"
+            class="imagenCardProducto"
+          />
+          <h3 class="nombreDeProducto">
+            PUMA HOOPS X TORTUGAS NINJA MB.03 LO KRANG
+          </h3>
+          <p class="categoriaCard">Zapatillas de Moda para Hombre</p>
+          <p class="precioProductoCard">$259.999</p>
+          <button class="botonCardAgregarCart">Agregar al Carrito</button>
+        </div>
+
+        <!-- Cards de Nike -->
+        <div class="cardProducto" id="zapatillaBlanca">
+          <img
+            src="../images/zapatilla_Blanca.png"
+            alt="NIKE SB ZOOM NYJAH 3 PREMIUM"
+            class="imagenCardProducto"
+          />
+          <h3 class="nombreDeProducto">NIKE SB ZOOM NYJAH 3 PREMIUM</h3>
+          <p class="categoriaCard">Zapatillas de Moda para Hombre</p>
+          <p class="precioProductoCard">$219.999</p>
+          <button class="botonCardAgregarCart">Agregar al Carrito</button>
+        </div>
+
+        <div class="cardProducto" id="zapatillaBlanca">
+          <img
+            src="../images/zapatilla_Blanca.png"
+            alt="NIKE SB ZOOM NYJAH 3 PREMIUM"
+            class="imagenCardProducto"
+          />
+          <h3 class="nombreDeProducto">NIKE SB ZOOM NYJAH 3 PREMIUM</h3>
+          <p class="categoriaCard">Zapatillas de Moda para Hombre</p>
+          <p class="precioProductoCard">$219.999</p>
+          <button class="botonCardAgregarCart">Agregar al Carrito</button>
+        </div>
+
+        <div class="cardProducto" id="zapatillaBlanca">
+          <img
+            src="../images/zapatilla_Blanca.png"
+            alt="NIKE SB ZOOM NYJAH 3 PREMIUM"
+            class="imagenCardProducto"
+          />
+          <h3 class="nombreDeProducto">NIKE SB ZOOM NYJAH 3 PREMIUM</h3>
+          <p class="categoriaCard">Zapatillas de Moda para Hombre</p>
+          <p class="precioProductoCard">$219.999</p>
+          <button class="botonCardAgregarCart">Agregar al Carrito</button>
+        </div>
+
+        <div class="cardProducto" id="zapatillaBlanca">
+          <img
+            src="../images/zapatilla_Blanca.png"
+            alt="NIKE SB ZOOM NYJAH 3 PREMIUM"
+            class="imagenCardProducto"
+          />
+          <h3 class="nombreDeProducto">NIKE SB ZOOM NYJAH 3 PREMIUM</h3>
+          <p class="categoriaCard">Zapatillas de Moda para Hombre</p>
+          <p class="precioProductoCard">$219.999</p>
+          <button class="botonCardAgregarCart">Agregar al Carrito</button>
+        </div>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer>
+      <p>Todos los derechos reservados</p>
+    </footer>
+    <!-- js -->
+    <script src="main.js"></script>
   </body>
 </html>
