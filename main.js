@@ -3,7 +3,7 @@ let productos = [
   {
     //Item Puma Rosa
     title: "PUMA HOOPS X TORTUGAS NINJA MB.03 LO KRANG",
-    image: "../images/zapatilla_Rosa.png",
+    image: "images/zapatilla_Rosa.png",
     category: "Zapatillas de Moda para Hombre",
     price: 259999,
     button: "Agregar al Carrito",
@@ -11,7 +11,7 @@ let productos = [
   {
     //Item Puma Rosa
     title: "PUMA HOOPS X TORTUGAS NINJA MB.03 LO KRANG",
-    image: "../images/zapatilla_Rosa.png",
+    image: "images/zapatilla_Rosa.png",
     category: "Zapatillas de Moda para Hombre",
     price: 259999,
     button: "Agregar al Carrito",
@@ -19,7 +19,7 @@ let productos = [
   {
     //Item Puma Rosa
     title: "PUMA HOOPS X TORTUGAS NINJA MB.03 LO KRANG",
-    image: "../images/zapatilla_Rosa.png",
+    image: "images/zapatilla_Rosa.png",
     category: "Zapatillas de Moda para Hombre",
     price: 259999,
     button: "Agregar al Carrito",
@@ -27,7 +27,7 @@ let productos = [
   {
     //Item Puma Rosa
     title: "PUMA HOOPS X TORTUGAS NINJA MB.03 LO KRANG",
-    image: "../images/zapatilla_Rosa.png",
+    image: "images/zapatilla_Rosa.png",
     category: "Zapatillas de Moda para Hombre",
     price: 259999,
     button: "Agregar al Carrito",
@@ -36,7 +36,7 @@ let productos = [
   {
     //Item Nike Blanca
     title: "NIKE SB ZOOM NYJAH 3 PREMIUM",
-    image: "../images/zapatilla_Blanca.png",
+    image: "images/zapatilla_Blanca.png",
     category: "Zapatillas de Moda para Hombre",
     price: 219999,
     button: "Agregar al Carrito",
@@ -44,7 +44,7 @@ let productos = [
   {
     //Item Nike Blanca
     title: "NIKE SB ZOOM NYJAH 3 PREMIUM",
-    image: "../images/zapatilla_Blanca.png",
+    image: "images/zapatilla_Blanca.png",
     category: "Zapatillas de Moda para Hombre",
     price: 219999,
     button: "Agregar al Carrito",
@@ -52,7 +52,7 @@ let productos = [
   {
     //Item Nike Blanca
     title: "NIKE SB ZOOM NYJAH 3 PREMIUM",
-    image: "../images/zapatilla_Blanca.png",
+    image: "images/zapatilla_Blanca.png",
     category: "Zapatillas de Moda para Hombre",
     price: 219999,
     button: "Agregar al Carrito",
@@ -60,7 +60,7 @@ let productos = [
   {
     //Item Nike Blanca
     title: "NIKE SB ZOOM NYJAH 3 PREMIUM",
-    image: "../images/zapatilla_Blanca.png",
+    image: "images/zapatilla_Blanca.png",
     category: "Zapatillas de Moda para Hombre",
     price: 219999,
     button: "Agregar al Carrito",
@@ -68,7 +68,7 @@ let productos = [
   {
     //Item Nike Blanca
     title: "NIKE SB ZOOM NYJAH 3 PREMIUM",
-    image: "../images/zapatilla_Blanca.png",
+    image: "images/zapatilla_Blanca.png",
     category: "Zapatillas de Moda para Hombre",
     price: 219999,
     button: "Agregar al Carrito",
