@@ -2,7 +2,7 @@
 let productos = [
   {
     //Item Puma Rosa
-    title: "PUMA HOOPS X TORTUGAS NINJA MB.03 LO KRANG",
+    title: "DC CONVER",
     image: "images/zapatilla_Rosa.png",
     category: "Zapatillas de Moda para Hombre",
     price: 259999,
